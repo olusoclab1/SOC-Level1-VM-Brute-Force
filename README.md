@@ -40,9 +40,9 @@ image
 
 The following questions were addressed during investigation:
 
-    Were the source IPs internal or external?
-    Did any successful logons occur after failures?
-    Was a specific account targeted?
+- Were the source IPs internal or external?
+-  Did any successful logons occur after failures?
+-  Was a specific account targeted?
 
 Authentication logs were reviewed to validate impact.
 
