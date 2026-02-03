@@ -81,27 +81,27 @@ image
 
 MITRE ATT&CK Mapping
 
-    T1110 – Brute Force
-    T1110.003 – Password Spraying
-    T1078 – Valid Accounts (conditional)
+- T1110 – Brute Force
+- T1110.003 – Password Spraying
+- T1078 – Valid Accounts (conditional)
 
 --- 
 
 
 # 🎯 Response Actions
 
-    Block malicious IP addresses (Firewall / NSG)
-    Review authentication activity for lateral movement
-    Reset or disable targeted accounts if required
-    Enforce MFA and account lockout policies
+- Block malicious IP addresses (Firewall / NSG)
+- Review authentication activity for lateral movement
+- Reset or disable targeted accounts if required
+- Enforce MFA and account lockout policies
 
 
 ---
 
 # 🎯 Skills Demonstrated
 
-    KQL log analysis
-    SOC alert triage
-    Threat intelligence enrichment
-    MITRE ATT&CK mapping
-    Incident response decision-making
+- KQL log analysis
+- SOC alert triage
+- Threat intelligence enrichment
+- MITRE ATT&CK mapping
+- Incident response decision-making
