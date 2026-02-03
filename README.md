@@ -1,7 +1,12 @@
-# SOC-Level1-VM-Brute-Force
-A hands-on SOC project focused on identifying and remediating brute-force authentication attacks on virtual machines using security logs and incident response procedures.
+# 🛡️ SOC-Level1-VM-Brute-Force
+This project demonstrates the detection, investigation, and response to brute force login attempts against a Windows virtual machine using Microsoft Defender for Endpoint (MDE), KQL, and Microsoft Sentinel.
 
 ---
+## Summary
+
+This lab demonstrates how a SOC Level 1 analyst detects, investigates, and responds to brute force login attempts against a Windows endpoint using Microsoft Defender for Endpoint and Microsoft Sentinel
+
+The goal is to simulate a real-world SOC workflow: attack simulation → detection → investigation → alerting → response → MITRE mapping.
 
 
 # 🎯 Lab Environment
