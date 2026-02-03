@@ -6,10 +6,10 @@ A hands-on SOC project focused on identifying and remediating brute-force authen
 
 # 🎯 Lab Environment
 
-    Azure Windows Virtual Machine
-    Microsoft Defender for Endpoint (MDE)
-    Microsoft Sentinel
-    Log source: DeviceLogonEvents
+- Azure Windows Virtual Machine
+- Microsoft Defender for Endpoint (MDE)
+- Microsoft Sentinel
+- Log source: DeviceLogonEvents
 
 image
 
