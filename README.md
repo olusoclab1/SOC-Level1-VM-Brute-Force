@@ -16,7 +16,7 @@ The goal is to simulate a real-world SOC workflow: attack simulation → detecti
 - Microsoft Sentinel
 - Log source: DeviceLogonEvents
 
-<img width="700" height="400" alt="5" src="https://github.com/user-attachments/assets/21a40afb-0de3-4d20-895c-82fae9a19626" />
+<img width="850" height="500" alt="5" src="https://github.com/user-attachments/assets/21a40afb-0de3-4d20-895c-82fae9a19626" />
 
 
 ---
@@ -37,7 +37,7 @@ Repeated failed logon attempts from the same external IP addresses within a shor
 
 Detection evidence:
 
-<img width="700" height="400" alt="4" src="https://github.com/user-attachments/assets/cc5fe517-7273-455e-a5c4-2a9524e91d4e" />
+<img width="770" height="500" alt="4" src="https://github.com/user-attachments/assets/cc5fe517-7273-455e-a5c4-2a9524e91d4e" />
 
 
 ---
@@ -55,7 +55,7 @@ Authentication logs were reviewed to validate impact.
 
 ** Investigation evidence: **
 
-<img width="700" height="700" alt="3" src="https://github.com/user-attachments/assets/bb57081f-95e8-4e2f-b87a-57fa2359fba3" />
+<img width="800" height="700" alt="3" src="https://github.com/user-attachments/assets/bb57081f-95e8-4e2f-b87a-57fa2359fba3" />
 
 --- 
 
