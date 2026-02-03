@@ -11,7 +11,8 @@ A hands-on SOC project focused on identifying and remediating brute-force authen
 - Microsoft Sentinel
 - Log source: DeviceLogonEvents
 
-image
+<img width="700" height="400" alt="5" src="https://github.com/user-attachments/assets/21a40afb-0de3-4d20-895c-82fae9a19626" />
+
 
 ---
 
@@ -30,7 +31,8 @@ This activity was designed to generate realistic authentication telemetry for de
 Repeated failed logon attempts from the same external IP addresses within a short time window were identified using KQL.
 
 Detection evidence:
-image
+
+<img width="700" height="400" alt="4" src="https://github.com/user-attachments/assets/cc5fe517-7273-455e-a5c4-2a9524e91d4e" />
 
 
 ---
@@ -47,17 +49,20 @@ The following questions were addressed during investigation:
 Authentication logs were reviewed to validate impact.
 
 ** Investigation evidence: **
-image
+
+<img width="700" height="700" alt="3" src="https://github.com/user-attachments/assets/bb57081f-95e8-4e2f-b87a-57fa2359fba3" />
 
 --- 
 
 
-#🎯 Threat Intelligence
+# 🎯 Threat Intelligence
 
 Source IP addresses were enriched using AbuseIPDB and confirmed to have a malicious reputation related to brute force activity.
 
 Threat intelligence evidence:
-Screenshot 2026-01-27 at 4 27 09 PM
+
+<img width="650" height="345" alt="2" src="https://github.com/user-attachments/assets/d5791ba7-9eb6-47ca-b09b-d03b32ad15a3" />
+
 
 ---
 
@@ -73,7 +78,8 @@ No successful logons were identified. The brute force attempt did not result in 
 
 A Microsoft Sentinel analytics rule was created to alert on brute force authentication patterns.
 
-https://private-user-images.githubusercontent.com/197061275/541307687-643700b0-c3b9-466f-ba59-466049398bd1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzAxMjc3NzMsIm5iZiI6MTc3MDEyNzQ3MywicGF0aCI6Ii8xOTcwNjEyNzUvNTQxMzA3Njg3LTY0MzcwMGIwLWMzYjktNDY2Zi1iYTU5LTQ2NjA0OTM5OGJkMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwM1QxNDA0MzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ODNlOWMxZWZmYjgwZDIzYWFhYjM0MTZmMGE4YTNjZDA0ZDZmODU4NDQ5ZDJhZDQxMmRmZWYxMzkzZjBlNTBkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.10BBXqUrhw7vxq1Hr5Ua3OVCcuR3TJtgZN-CBHdORxg
+<img width="700" height="500" alt="1" src="https://github.com/user-attachments/assets/b9d4b90b-4e05-42b3-beb8-cdaf15633454" />
+
 
 ---
 
